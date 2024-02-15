@@ -5,7 +5,8 @@ class Pizza
 
     def initialize(toppings, cheese, sauce)
         @toppings = toppings
-        @cheese = cheese
+        @cheese = 'yum'
         @sauce = sauce
+        @pineapple = false
     end
 end
