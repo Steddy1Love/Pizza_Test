@@ -3,13 +3,15 @@ class CheeseBurger
                 :cheese,
                 :sauce
 
-    def initialize(toppings, queso, sauce)
+    def initialize(toppings, cheese, sauce, crust)
         @toppings = toppings
-        @cheese = add_more_cheese
-        @sauce = cheese_sauce_is_pretty_good
+        @cheese = cheese
+        @sauce = sauce
+        @crust = {}
         @pineapple = false
     end
 
     def add_more_cheese
+        #Big important method needed here
     end
 end
